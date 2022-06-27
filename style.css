@@ -5,44 +5,33 @@
 }
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: #f3f6f9;
 }
 
-/* Nav bar styling  */
-.header, a {
-    padding: 10px;
-    background-color: #0c0c10;
-    color: white;   
-    text-decoration: none;
-}
-
-.header span {
-    color: lightcoral;
-    text-align: left;
-}
-
+/* Navigation Bar Section */
 .navbar {
-    width: 95%;
-    margin: auto;
-    min-height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 25px;
+    top: 0;
 }
 
-.nav-menu {
+.navbar ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 150px;
-    font-size: larger;
-}
-
-li {
     list-style: none;
+    margin: 20px 0px;
 }
 
-.header .links:hover {
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 100px;
+    transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
     color: lightcoral;
 }
 
@@ -57,17 +46,20 @@ li {
     background-position: center;
 }
 
-.background_picture p {
+.background_picture h2 {
+    height: 100vh;
     color: white;
-    position: absolute;
-    bottom: 10%;
-    left: 5%;
-    font-size: xx-large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
 }
 
 /* About Me Section */
 .about-me {
-    background-color: #f3f6f9;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     border-radius: 10px;
     margin: 5%;
     padding: 5px ;
@@ -96,4 +88,32 @@ li {
     display: inline-block;
     margin: 10px;
     font-size: 15px;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    border: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    ;
+}
+
+.portfolio-section h2 {
+    padding: 2rem;
+    border: solid black;
+    width: 50%;
+    text-align: center;
+}
+
+.portfolio-section .proj1-pic {
+    /* border: solid black; */
+    padding: 10px;
+    margin: auto;
+    height: 50rem;
+    width: 50rem;
+    display: flex;
+    flex-wrap: wrap;
 }
