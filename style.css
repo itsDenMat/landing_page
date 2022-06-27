@@ -142,29 +142,30 @@ body {
 }
 
 /* Portfolio Section */
-.portfolio-section {
-    border: solid black;
+#portfolio {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 2rem;
-    ;
 }
 
-.portfolio-section h2 {
-    padding: 2rem;
-    border: solid black;
-    width: 50%;
-    text-align: center;
-}
-
-.portfolio-section .proj1-pic {
-    /* border: solid black; */
-    padding: 10px;
-    margin: auto;
-    height: 50rem;
-    width: 50rem;
+.gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 100px;
+}
+
+.gallery .first-proj {
+    width: 800px;
+    height: 500px;
+}
+
+.gallery img {
+    width: 360px;
+    height: 240px;
+    margin: 10px;
 }
