@@ -13,9 +13,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 1);
     padding: 25px;
     top: 0;
+    position: sticky;
 }
 
 .navbar ul {
@@ -98,7 +99,7 @@ body {
 }
 
 /* About Me Section */
-#about {
+.AboutMe {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -113,7 +114,7 @@ body {
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
-#about>h2 {
+.AboutMe>h2 {
     display: flex;
     text-align: center;
     align-items: center;
