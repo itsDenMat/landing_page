@@ -15,6 +15,30 @@ Created a landing page to sample a potential previous work using a Portfolio Sec
 
 > Full screen web application
 
-<img src="./Desktop/landing_page/images/landing-page-wide.png">
+<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-wide.png">
+
+<br>
+
+<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-wide-01.png">
+
+<br>
+
+>Responsive view
+
+<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-narrow.png">
+
+<br>
+
+<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-narrow-01.png">
+
+<br>
+
+<p align="center">
+Click the link below to access work:
+</p>
+
+<p align="center">
+<a href="#">Landing Page</a>
+</p>
 
 
