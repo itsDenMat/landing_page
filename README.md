@@ -15,7 +15,7 @@ Created a landing page to sample a potential previous work using a Portfolio Sec
 
 > Full screen web application
 
-<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-wide.png">
+<img src="landing-page-wide.png">
 
 <br>
 
