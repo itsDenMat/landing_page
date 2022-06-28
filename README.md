@@ -38,7 +38,7 @@ Click the link below to access work:
 </p>
 
 <p align="center">
-<a href="#">Landing Page</a>
+<a href="https://itsdenmat.github.io/landing_page/">Landing Page</a>
 </p>
 
 
