@@ -19,17 +19,17 @@ Created a landing page to sample a potential previous work using a Portfolio Sec
 
 <br>
 
-<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-wide-01.png">
+<img src="./images/landing-page-wide-01.png">
 
 <br>
 
 >Responsive view
 
-<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-narrow.png">
+<img src="./images/landing-page-narrow.png">
 
 <br>
 
-<img src="/Users/itsdenmac/Desktop/landing_page/images/landing-page-narrow-01.png">
+<img src="./images/landing-page-narrow-01.png">
 
 <br>
 
