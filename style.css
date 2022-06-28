@@ -17,6 +17,7 @@ body {
     padding: 25px;
     top: 0;
     position: sticky;
+    z-index: 5;
 }
 
 .navbar ul {
@@ -71,7 +72,6 @@ body {
     position: absolute;
     top: 40%;
     left: 5%;
-    z-index: -1;
 }
 
 .headings {
