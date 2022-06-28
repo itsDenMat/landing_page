@@ -71,6 +71,7 @@ body {
     position: absolute;
     top: 40%;
     left: 5%;
+    z-index: -1;
 }
 
 .headings {
@@ -171,6 +172,16 @@ body {
     margin: 10px;
 }
 
+.gallery a h4 {
+    padding: 0 0 0 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
 /* Contact Me Section */
 .contact {
     display: flex;
@@ -223,3 +234,96 @@ body {
     box-shadow: 0 0 5px lightcoral, 0 0 10px lightcoral, 0 0 15px lightcoral;
     font-weight: bold;
 }
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1000px){
+    .navbar ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        z-index: -1;
+    }
+}
+
+    @media (max-width: 850px) {
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 9%;
+            z-index: -1;
+        }
+
+        #pic {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8); 
+        }
+
+        #pic img {
+            width: 100%;
+            border: solid black;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .gallery .first-proj {
+            height: 300px;
+            width: 600px;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 70%;
+            left: 2%;
+            z-index: -1;
+            font-size: large;
+        }
+
+        #pic {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8); 
+        }
+
+        #pic img {
+            width: 100%;
+            border: solid black;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .gallery .first-proj {
+            height: 200px;
+            width: 300px;
+        }
+        .gallery img {
+            height: 200px;
+            width: 300px;
+        }
+    }
