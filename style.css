@@ -161,7 +161,7 @@ body {
     margin-bottom: 100px;
 }
 
-.gallery .first-proj {
+.gallery .highlight-proj {
     width: 800px;
     height: 500px;
 }
@@ -287,7 +287,7 @@ body {
             border-radius: 10px 10px 0 0;
         }
 
-        .gallery .first-proj {
+        .gallery .highlight-proj {
             height: 300px;
             width: 600px;
         }
@@ -318,7 +318,7 @@ body {
             border-radius: 10px 10px 0 0;
         }
 
-        .gallery .first-proj {
+        .gallery .highlight-proj {
             height: 200px;
             width: 300px;
         }
